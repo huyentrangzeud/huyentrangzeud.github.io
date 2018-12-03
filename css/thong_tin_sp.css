@@ -1,0 +1,156 @@
+.khung_thong_tin{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;	
+}
+.hinh_ttsp{
+    width: 450px;
+    margin: 0 0 0 85px;
+    position: relative;
+    padding: 30px 30px 20px 30px;
+	float: left;	 
+}
+.hinh_ttsp > *{
+	margin:10px;	
+}
+.main_pic{
+	border: 1px solid #CCC;
+	height: 400px;
+    width: 400px;
+}
+.extra_pic{
+	border: 1px solid #CCC;
+	height: 120px;
+    width: 120px;	
+}
+.thongtin_ttsp{
+    width: 500px;
+    float: right;
+    position: relative;
+    margin: 0 60px 0 0;
+    text-align: left;
+    padding: 0 0 20px 0;
+}
+.describe{
+    width: 95%;
+    margin: 30px 30px 0px 30px;	
+}
+.ten_ttsp{
+    padding: 35px 0 15px 10px;
+    font-size: 24px;
+    color: #0844f5;	
+}
+.gia_tien_ttsp{
+    font-size: 24px;
+    color: #de0000;
+    text-align: left;
+    padding: 0 0 15px 35px;
+}
+.khuyen_mai_ttsp{
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 5px 20px 5px;
+    background: #fff;
+    padding-bottom: 10px;
+    text-indent: 25px;
+    padding: 5px;	
+}
+.ship{
+    position: relative;
+	background-color: #ecf7ed;
+    border-radius: 3px;
+    border: solid 1px #c4ddc8;
+    margin: 10px 5px 20px 5px;
+    padding: 5px 5px 5px 25px;
+    font-weight: bold;
+    line-height: 30px;	
+}
+.checkbox_ttsp{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;	
+}
+.option_shiper{
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 5px 20px 5px;
+    background: #fff;
+    padding: 5px 5px 5px 25px;
+}
+.zalopay{
+    position: relative;
+	background-color: #ecf7ed;
+    border-radius: 3px;
+    border: solid 1px #c4ddc8;
+    margin: 10px 5px 20px 5px;
+    padding: 5px 5px 5px 25px;	
+}
+.zalopay_icon{
+	height:19px;
+	width:66px;	
+}
+.zalopay r{
+	color:#c10017;	
+}
+.zalopay a{
+	color:#288ad6;
+}
+.zalopay a:hover{
+	color:#c10017;
+}
+.button_ttsp{
+    margin: 20px 0 0 115px;	
+}
+#add_ttsp, #buy_ttsp{
+    background: white;
+    border: 2px solid gray;
+    padding: 15px 30px 15px 30px;
+    color: #000;
+    font-size: 15px;
+    transition: 0.3s;	
+}
+#add_ttsp:hover{
+	border: 2px solid #3bcc52;
+	color: #209432;
+	background-color: #ecf7ed;
+	font-size:17px;	
+}
+#buy_ttsp:hover{
+	border: 2px solid #f14747;
+	color: #c10017;
+    background-color: #ece0e0;
+	font-size:17px;	
+}
+.describe_sp{
+	width: 500px;
+    padding: 30px 0 60px 30px;
+	margin: 0 0 0 30px;
+	text-align:left;
+	font-size:18px;
+	float:left;	
+}
+.thongso_sp{
+    width: 500px;
+    padding: 30px 0 0 100px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 18px;
+	float:left;
+}
+.thongso_sp .title{
+	font-size:18px;
+	text-align:left;
+	padding: 5px 5px 20px 5px;
+}
+.thongso_sp p{
+    padding: 5px;
+}
+.thongso_sp .l{
+	text-align: left;
+}
+.thongso_sp .r{
+	float: right;
+}
+

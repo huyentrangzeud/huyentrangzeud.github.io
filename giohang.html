@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giỏ Hàng</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/top.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/giohang.css">
+    <link rel="stylesheet" type="text/css" href="css/thong_tin_sp.css">
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+<!--	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+</head>
+<body onLoad="giohang()">
+		<!---Top start--->
+	<div class="top">
+		<div class="topleft">
+			<input type="text" placeholder="Tìm kiếm..">
+			<a href="#"><i class="fa fa-search"></i></a>
+		</div>
+		<div class="topright">
+			
+		</div>
+	</div>
+		<!---Top end--->
+		<!--------------------->
+		<!--Header start-->
+	<div class="header">
+		<div class="imgheader"><a href="source/index.html"><img src="images/slogan.jpg" width="200px" height="200px"></a></div>
+		<div class="menuheader">
+			<a href="source/index.html"> Trang chủ </a>
+			<a href="sanpham.html"> Sản Phẩm </a>
+			<a href="#"> Giới Thiệu </a>
+			<a href="#"> Giỏ hàng </a>
+		</div>
+	</div>
+		<!--Header end-->
+		<!--Content start-->
+	<div class="content">
+		<h1 align="center">SNEAKER SHOP - ONLY AUTHENTIC</h1>
+		<!--Slideshow for images-->
+<!--<script type="text/javascript">Slider</script>-->
+		<!--Slideshow for images-->
+
+<!--script type="text/javascript">Tạo mục danh sách</script>-->
+    </div>
+		<div class="intro" id="intro">
+			<h1 class="textintro">Giỏ hàng</h1>
+		</div>
+		<div class="cart-product-header">
+			<div class="cart-product">Sản phẩm</div>
+			<div class="cart-unit-price">Đơn giá</div>
+			<div class="cart-quantity">Số lượng</div>
+			<div class="cart-total-price">Thành tiền</div>
+			<div class="cart-action">Thao tác</div>
+		</div>
+		<div class="info-product">
+        <!--	<div class="list_sp">
+				<div class="cart-items" id="box_10">      
+                	<div class="list_sp_1">
+                    	<div class="cart-imgs"><a href="#"><img src="images/CONVERSE/CONVERSE_1.jpg" alt="cart-imgs" height="100px" width="100px"></a></div>
+                    	<div class="cart-names"><a href="#">Converse : lucky chuck tayler</a></div>   
+                   
+
+                    	<div class="cart-don-gia">
+                        	<div class="cart-gia">
+                        		<div class="gia-tien">100.000.000vnd</div>
+                            	<div class="gia-cu">100.000.000vnd</div>
+                            </div>
+                        </div>
+                        
+                        <div class="cart-soluong">
+                        	<form action=""> 
+                            	<input value="-" id="subtract" type="button" class="bt" onClick="math(this)">
+                        		<input value="1" type="text" name="" id="numbers_of_cart_item" size="1" class="sl">
+                                <input value="+" id="add" type="button" class="bt" onClick="math(this)">
+							<form>
+                       	</div> 
+                        <div class="cart-sum">100.000.000vnd</div>
+                        
+                        <div class="cart-button">  
+
+							<span title="Mua sản phẩm này" class="buy_bt"></span>
+   							<span title="Xóa sản phẩm khỏi giỏ hàng" data-delete="box_10" class="delete_bt"></span>
+                            <span title="Thích sản phẩm này" onclick="alert('Bạn đã thích 1 sản phẩm')" class="like_bt"></span>
+
+                        </div>
+                        
+                    </div>           
+            	</div>
+            </div>-->
+			
+            
+            <div class="list_sp"></div>
+            <hr class="hr_giohang">
+			<div class="total-items"> 
+				<div class="list_sp_2">            	
+            		<div class="total_1">Thông tin đơn hàng:</div>
+                    <div class="total_2"></div>
+                    <div class="total_3" id="total_sp"></div>
+                    <div class="total_4" id="total_pay"></div>
+                    <div class="total_5">
+                   		<span title="Mua tất cả sản phẩm này" class="buy_bt"></span>
+   						<span title="Xóa tất cả sản phẩm khỏi giỏ hàng" class="delete_all_bt"></span>
+                        <span title="Thích tất cả" onclick="alert('Hừmmm')" class="like_bt"></span>
+                        <span title="Cập nhật" onClick="location.reload()" class="refresh_cart_bt"></span> 
+                    </div>
+                </div>
+            </div>
+		</div>
+         
+    </div>
+	<!--Content end-->
+	<!--Footer start-->
+	<div class="footer">
+		<div class="footerleft">
+			Sneaker store<br>
+			Địa chỉ: 273 An Dương Vương<br>
+			Số điện thoại: 0123.706.0928<br>
+			Hotline: 0123.456.789<br>
+			<hr>
+			Giấy phép kinh doanh số 123456<br>
+			Ngày cấp: 01/09/2018<br>
+			Nơi cấp: Ủy ban nhân dân quận 5<br>
+			Chủ sở hữu: Nhóm 9<br>
+		</div>
+		<div class="footercenter">
+			Theo dõi chúng tôi tại : <br>
+            <a href="#"><img src="images/icon1.png" width="40px" height="30px"></a>
+            <a href="#"><img src="images/icon2.jpg" width="40px" height="30px"></a>
+			<br>Gửi tin nhắn cho chúng tôi qua email : <br>
+			sneakerstore@gmail.com.vn
+			<hr>
+			<div class="footerslogan"><img src="images/sloganfooter.jpg" width="100px" height="100px"></div>
+		</div>
+<!--		<div class="footermap">
+		<iframe src="http://tinyurl.com/yaada3dc" width="400" height="220px" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>-->
+	</div>
+	<!--Footer end-->
+ 	<div class="scroll_to_top">
+        <div class="scroll_btn"></div>
+    </div>
+
+<script type="text/javascript" src="js/JS.js"></script>
+</body>
+
+</html>

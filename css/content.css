@@ -1,0 +1,174 @@
+/*Slideshow css*/
+.content{
+	text-align: center;
+	box-sizing: border-box;
+	width:auto;
+	height:auto;
+}
+.slideshow{
+	position: relative;
+	height: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.slider{
+	width:auto;
+	height:500px;	
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+.wrap_left_menu {
+  width: 250px;
+  float: left;
+  padding-top:0px;
+}
+.left_menu {
+	width: 250px;
+}
+.left_menu a {
+  text-decoration: none;
+  color: blue;
+}
+.left_menu_header {
+  width: 220px;
+  text-align: center;
+  background: #f4f4f4;
+  font-weight: bold;
+  padding: 12px 0;
+  color: blue;
+  border-left:5px solid blue; 
+  border-bottom: 1px solid blue;
+  box-shadow: 1px -2px 3px blue;
+}
+.danh_muc_item {
+  padding: 10px 0 10px 0;
+  width: 220px;
+  text-indent: 30px;
+  text-align: left;
+  transition: 0.3s;
+  text-decoration: none;
+  border-bottom: 1px solid blue;
+  border-left:3px solid blue;
+  border-top: 0;
+}
+.danh_muc_item:hover {
+  border-left:17px solid blue;
+  background: #CFF;
+}
+.khung_san_pham{
+	width: 1087px;
+	float:left;	
+}
+.khung_sp_header {
+  padding-bottom: 10px;
+  clear: both;
+  padding-top: 10px;
+  border-left: blue solid 20px;
+  border-top:  blue solid 1px;
+  border-bottom:  blue solid 1px;
+  width:1000px;
+  height:25px;
+}
+
+.first_txt{
+	font-size:20px;
+	font-weight:bold;
+	margin: 0 10px;
+}
+.product-box{
+	width: 240px;
+	height: 329px;
+	margin: 5px;
+	float: left;
+	box-shadow: 1px 1px 5px #CCC;
+}
+.product-box:hover {
+	box-shadow: 5px 5px 10px blue;	
+}
+.hinh-sp{
+	height: 230px;
+	width: 210px;
+	position: relative;
+    margin: 0 auto;
+}
+.hinh{
+	background-position:center;
+	background-repeat: no-repeat;
+    background-size: contain;
+	position: relative;
+	top: 20px;
+	height: 210px;
+	width: 210px;
+	transition: 0.2s;
+}
+.box:hover .hinh{
+	position: relative;
+	top: 5px;
+}
+.box:hover .ten-sp{
+	color: blue;
+}
+.product-box a{
+	text-decoration: none;
+}
+.ten-sp{
+	text-align: left;
+	margin: 0;
+	padding: 5px 0 0 10px;
+	font-size: 17px;
+	color: black;
+}
+.gia-tien{
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-size: 20px;
+	color: black;
+	text-align:left;
+}
+.gia-tien:hover{
+	color:red;
+}
+.gia-cu{
+	font-size: 14px;
+	margin-left: 15px;
+	text-decoration: line-through;
+}
+.them-vao-gio-hang{
+	float:right;
+    padding:0px 12px 10px 5px;	
+	display: block;
+	font-weight:bold;
+	
+}
+.them{
+	font-size: 12px;
+	padding: 5px 18px;
+	color:rgba(126,126,126,1.00);
+	border: 2px solid #CCC;
+	margin-right: 5px;
+	background: white;
+}
+.them:hover{
+	transition: 0.2s;
+	border: 2px solid blue;
+}
+
+.them_change{
+	border: 2px solid red;
+}
+
+
+
